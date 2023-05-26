@@ -10,7 +10,7 @@ import "@openzeppelin/contracts@4.9.0/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts@4.9.0/access/Ownable.sol";
 
 contract Quantum is ERC20, Ownable {
-    constructor() ERC20("Quantum", "QLT") {
+    constructor() ERC20("LEAP", "LEAP") {
         _mint(msg.sender, 100000000 * 10 ** decimals());
     }
 }
